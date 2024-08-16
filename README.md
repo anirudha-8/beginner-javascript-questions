@@ -28,7 +28,7 @@ This repository contains a collection of basic to intermediate JavaScript practi
     - [17. 🔢 Checking Last Digits of Numbers](#17--checking-last-digits-of-numbers)
     - [18. 🔢 Fibonacci Series](#18--fibonacci-series)
     - [19. 🔢 Checking Number - Armstrong or Not](#19--checking-number---armstrong-or-not)
-    - [20. 🔢 Finding Armstrong Number (Between Interval)](#20--finding-armstrong-number-between-interval)
+    - [20. 🔢 Finding Armstrong Number ()](#20--finding-armstrong-number-)
     - [21. 🔢 Factors of a Number](#21--factors-of-a-number)
     - [22. 🔄 Sum of Natural Numbers Using Recursion](#22--sum-of-natural-numbers-using-recursion)
     - [23. 🔤 Check String - Palindrome or Not](#23--check-string---palindrome-or-not)
@@ -52,172 +52,172 @@ This repository contains a collection of basic to intermediate JavaScript practi
 ### 1. 👋 Hello World
 
 - **Description**: Write a simple program to print "Hello, World!" on the console.
-- **Solution**: [View Solution](./1%29%20hello%20world/solution.js)
+- **Solution**: [View Solution](./01\)%20hello%20world/index.html)
 
 ### 2. ➕ Addition of Two Numbers
 
 - **Description**: Write a program to add two numbers provided by the user.
-- **Solution**: [View Solution](./2%29%20addition%20of%20two%20numbers/solution.js)
+- **Solution**: [View Solution](./02\)%20addition%20of%20two%20numbers/index.html)
 
 ### 3. 📐 Area of a Triangle
 
 - **Description**: Write a program to calculate the area of a triangle given its base and height.
-- **Solution**: [View Solution](./3%29%20area%20of%20triangle/solution.js)
+- **Solution**: [View Solution](./03\)%20area%20of%20triangle/index.html)
 
 ### 4. 🔢 Square Root of a Number
 
 - **Description**: Write a program to find the square root of a given number.
-- **Solution**: [View Solution](./4%29%20square%20root%20of%20a%20number/solution.js)
+- **Solution**: [View Solution](./04\)%20square%20root%20of%20a%20number/index.html)
 
 ### 5. 🔄 Swapping of Two Numbers
 
 - **Description**: Write a program to swap two numbers without using a third variable.
-- **Solution**: [View Solution](./5%29%20swapping%20of%20two%20numbers/solution.js)
+- **Solution**: [View Solution](./05\)%20swapping%20of%20two%20numbers/index.html)
 
 ### 6. 🌍 KM to Miles Converter
 
 - **Description**: Write a program to convert kilometers to miles.
-- **Solution**: [View Solution](./6%29%20km%20to%20miles%20Converter/solution.js)
+- **Solution**: [View Solution](./06\)%20km%20to%20miles%20Converter/index.html)
 
 ### 7. 🌡️ Celsius to Fahrenheit Converter
 
 - **Description**: Write a program to convert Celsius to Fahrenheit.
-- **Solution**: [View Solution](./7%29%20celsius%20to%20fahrenheit%20converter/solution.js)
+- **Solution**: [View Solution](./07\)%20celsius%20to%20fahrenheit%20converter/index.html)
 
 ### 8. 🔍 Checking Number - Positive, Negative or Zero
 
 - **Description**: Write a program to check whether a number is positive, negative, or zero.
-- **Solution**: [View Solution](./8%29%20checking%20number%20-%20positive%2C%20negative%20or%20zero/solution.js)
+- **Solution**: [View Solution](./08\)%20checking%20number%20-%20positive,%20negative%20or%20zero/index.html)
 
 ### 9. 🎲 Generate Random Numbers
 
 - **Description**: Write a program to generate random numbers within a given range.
-- **Solution**: [View Solution](./9%29%20generate%20random%20numbers/solution.js)
+- **Solution**: [View Solution](./09\)%20generate%20random%20numbers/index.html)
 
 ### 10. 🔢 Checking Number - Odd or Even
 
 - **Description**: Write a program to check if a number is odd or even.
-- **Solution**: [View Solution](./10%29%20checking%20number%20-%20odd%20or%20even/solution.js)
+- **Solution**: [View Solution](./10\)%20checking%20number%20-%20odd%20or%20even/index.html)
 
 ### 11. 🔢 Checking Number - Prime or Not
 
 - **Description**: Write a program to check if a number is prime.
-- **Solution**: [View Solution](./11%29%20checking%20number%20-%20prime%20or%20not/solution.js)
+- **Solution**: [View Solution](./11\)%20checking%20number%20-%20prime%20or%20not/index.html)
 
 ### 12. 🔢 Largest of Three Numbers
 
 - **Description**: Write a program to find the largest of three numbers.
-- **Solution**: [View Solution](./12%29%20largest%20of%20three%20numbers/solution.js)
+- **Solution**: [View Solution](./12\)%20largest%20of%20three%20numbers/index.html)
 
 ### 13. 🔄 Factorial - Using Loop
 
 - **Description**: Write a program to calculate the factorial of a number using a loop.
-- **Solution**: [View Solution](./13%29%20factorial%20-%20using%20loop/solution.js)
+- **Solution**: [View Solution](./13\)%20factorail%20-%20using%20loop/index.html)
 
 ### 14. 🔄 Factorial - Using Recursion
 
 - **Description**: Write a program to calculate the factorial of a number using recursion.
-- **Solution**: [View Solution](./14%29%20factorial%20-%20using%20recursion/solution.js)
+- **Solution**: [View Solution](./14\)%20factorial%20-%20using%20recursion/index.html)
 
 ### 15. 🔢 Table of Any Number
 
 - **Description**: Write a program to print the multiplication table of any number.
-- **Solution**: [View Solution](./15%29%20table%20of%20any%20number/solution.js)
+- **Solution**: [View Solution](./15\)%20table%20of%20any%20number/index.html)
 
 ### 16. 🧮 Simple Calculator
 
 - **Description**: Write a program to create a simple calculator that performs basic arithmetic operations.
-- **Solution**: [View Solution](./16%29%20simple%20calculator/solution.js)
+- **Solution**: [View Solution](./16\)%20simple%20calculator/index.html)
 
 ### 17. 🔢 Checking Last Digits of Numbers
 
 - **Description**: Write a program to check whether the last digits of two numbers are the same.
-- **Solution**: [View Solution](./17%29%20checking%20last%20digits%20of%20numbers/solution.js)
+- **Solution**: [View Solution](./17\)%20checking%20last%20digits%20of%20numbers%20is%20same%20or%20not/index.html)
 
 ### 18. 🔢 Fibonacci Series
 
 - **Description**: Write a program to generate the Fibonacci series up to a given number.
-- **Solution**: [View Solution](./18%29%20fibonacci%20series/solution.js)
+- **Solution**: [View Solution]()
 
 ### 19. 🔢 Checking Number - Armstrong or Not
 
 - **Description**: Write a program to check if a number is an Armstrong number.
-- **Solution**: [View Solution](./19%29%20checking%20number%20-%20armstrong%20or%20not/solution.js)
+- **Solution**: [View Solution]()
 
-### 20. 🔢 Finding Armstrong Number (Between Interval)
+### 20. 🔢 Finding Armstrong Number ()
 
 - **Description**: Write a program to find all Armstrong numbers within a given interval.
-- **Solution**: [View Solution](./20%29%20finding%20armstrong%20number/solution.js)
+- **Solution**: [View Solution]()
 
 ### 21. 🔢 Factors of a Number
 
 - **Description**: Write a program to find all the factors of a given number.
-- **Solution**: [View Solution](./21%29%20factors%20of%20a%20number/solution.js)
+- **Solution**: [View Solution]()
 
 ### 22. 🔄 Sum of Natural Numbers Using Recursion
 
 - **Description**: Write a program to find the sum of natural numbers using recursion.
-- **Solution**: [View Solution](./22%29%20sum%20of%20natural%20numbers%20using%20recursion/solution.js)
+- **Solution**: [View Solution]()
 
 ### 23. 🔤 Check String - Palindrome or Not
 
 - **Description**: Write a program to check if a string is a palindrome.
-- **Solution**: [View Solution](./23%29%20check%20string%20-%20palindrome%20or%20not/solution.js)
+- **Solution**: [View Solution]()
 
 ### 24. 🔤 Sort Words in Alphabetical Order
 
 - **Description**: Write a program to sort words in a string in alphabetical order.
-- **Solution**: [View Solution](./24%29%20sort%20words%20in%20alphabetical%20order/solution.js)
+- **Solution**: [View Solution]()
 
 ### 25. 🔤 Replace Characters of a String
 
 - **Description**: Write a program to replace characters in a string with another character.
-- **Solution**: [View Solution](./25%29%20replace%20characters%20of%20a%20string/solution.js)
+- **Solution**: [View Solution]()
 
 ### 26. 🔄 Reverse a String - Using Loop
 
 - **Description**: Write a program to reverse a string using a loop.
-- **Solution**: [View Solution](./26%29%20reverse%20a%20string%20-%20using%20loop/solution.js)
+- **Solution**: [View Solution]()
 
 ### 27. 🔤 Convert First Letter of String to Uppercase
 
 - **Description**: Write a program to convert the first letter of each word in a string to uppercase.
-- **Solution**: [View Solution](./27%29%20convert%20first%20letter%20of%20string%20to%20uppercase/solution.js)
+- **Solution**: [View Solution]()
 
 ### 28. 🔢 Find Number of Occurrences of Character in String
 
 - **Description**: Write a program to find the number of occurrences of a character in a string.
-- **Solution**: [View Solution](./28%29%20find%20number%20of%20occurrences%20of%20character%20in%20string/solution.js)
+- **Solution**: [View Solution]()
 
 ### 29. 🔤 Number of Vowels in String Using Regex
 
 - **Description**: Write a program to count the number of vowels in a string using regular expressions.
-- **Solution**: [View Solution](./29%29%20number%20of%20vowels%20in%20string%20using%20regex/solution.js)
+- **Solution**: [View Solution]()
 
 ### 30. 🔍 Check Whether String Starts and Ends with Specific Character
 
 - **Description**: Write a program to check whether a string starts and ends with a specific character.
-- **Solution**: [View Solution](./30%29%20check%20whether%20string%20starts%20and%20ends%20with%20specific%20character/solution.js)
+- **Solution**: [View Solution]()
 
 ### 31. 🔍 Check Whether a String Contains a Substring
 
 - **Description**: Write a program to check whether a string contains a specific substring.
-- **Solution**: [View Solution](./31%29%20check%20whether%20a%20string%20contains%20a%20substring/solution.js)
+- **Solution**: [View Solution]()
 
 ### 32. 🔄 Check Palindrome String Using Array Methods
 
 - **Description**: Write a program to check if a string is a palindrome using array methods.
-- **Solution**: [View Solution](./32%29%20check%20palindrome%20string%20using%20array%20methods/solution.js)
+- **Solution**: [View Solution]()
 
 ### 33. 🎮 Guess the Number Game
 
 - **Description**: Create a simple game where the user has to guess a randomly generated number.
-- **Solution**: [View Solution](./33%29%20guess%20the%20number%20game/solution.js)
+- **Solution**: [View Solution]()
 
 ### 34. 🎮 Snake, Water, Gun Game
 
 - **Description**: Create a Snake, Water, Gun game where the user plays against the computer.
-- **Solution**: [View Solution](./34%29%20snake%2C%20water%2C%20gun%20game/solution.js)
+- **Solution**: [View Solution]()
 
 ## 🌟 Contributing
 
