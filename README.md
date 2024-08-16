@@ -137,87 +137,87 @@ This repository contains a collection of basic to intermediate JavaScript practi
 ### 18. 🔢 Fibonacci Series
 
 - **Description**: Write a program to generate the Fibonacci series up to a given number.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./18\)%20fibonacci%20series/index.html)
 
 ### 19. 🔢 Checking Number - Armstrong or Not
 
 - **Description**: Write a program to check if a number is an Armstrong number.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./19\)%20checking%20number%20-%20armstrong%20or%20not/index.html)
 
 ### 20. 🔢 Finding Armstrong Number ()
 
 - **Description**: Write a program to find all Armstrong numbers within a given interval.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./20\)%20finding%20armstrong%20number\(between%20interwal\)/index.html)
 
 ### 21. 🔢 Factors of a Number
 
 - **Description**: Write a program to find all the factors of a given number.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./21\)%20factors%20of%20number/index.html)
 
 ### 22. 🔄 Sum of Natural Numbers Using Recursion
 
 - **Description**: Write a program to find the sum of natural numbers using recursion.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./22\)%20sum%20of%20natural%20numbers%20using%20recursion/index.html)
 
 ### 23. 🔤 Check String - Palindrome or Not
 
 - **Description**: Write a program to check if a string is a palindrome.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./23\)%20check%20string%20-%20palindrome%20or%20not/index.html)
 
 ### 24. 🔤 Sort Words in Alphabetical Order
 
 - **Description**: Write a program to sort words in a string in alphabetical order.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./24\)%20sorts%20words%20in%20alphabetical%20order/index.html)
 
 ### 25. 🔤 Replace Characters of a String
 
 - **Description**: Write a program to replace characters in a string with another character.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./25\)%20replace%20characters%20of%20a%20string/index.html)
 
 ### 26. 🔄 Reverse a String - Using Loop
 
 - **Description**: Write a program to reverse a string using a loop.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./26\)%20reverse%20a%20string%20-%20using%20loop/index.html)
 
 ### 27. 🔤 Convert First Letter of String to Uppercase
 
 - **Description**: Write a program to convert the first letter of each word in a string to uppercase.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./27\)%20converting%20first%20letter%20of%20string%20in%20to%20uppercase/index.html)
 
 ### 28. 🔢 Find Number of Occurrences of Character in String
 
 - **Description**: Write a program to find the number of occurrences of a character in a string.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./28\)%20find%20number%20of%20occurace%20of%20character%20in%20string%20-%20using%20for%20loop/index.html)
 
 ### 29. 🔤 Number of Vowels in String Using Regex
 
 - **Description**: Write a program to count the number of vowels in a string using regular expressions.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./29\)%20number%20of%20vowels%20in%20string%20using%20regex/index.html)
 
 ### 30. 🔍 Check Whether String Starts and Ends with Specific Character
 
 - **Description**: Write a program to check whether a string starts and ends with a specific character.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./30\)%20check%20wheather%20string%20starts%20and%20ends%20with%20certain%20characters/index.html)
 
 ### 31. 🔍 Check Whether a String Contains a Substring
 
 - **Description**: Write a program to check whether a string contains a specific substring.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./31\)%20check%20wheather%20a%20string%20contains%20a%20substring/index.html)
 
 ### 32. 🔄 Check Palindrome String Using Array Methods
 
 - **Description**: Write a program to check if a string is a palindrome using array methods.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./32\)%20check%20palindrome%20string%20using%20-%20array%20methods/index.html)
 
 ### 33. 🎮 Guess the Number Game
 
 - **Description**: Create a simple game where the user has to guess a randomly generated number.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./33\)%20guess%20the%20number%20game/index.html)
 
 ### 34. 🎮 Snake, Water, Gun Game
 
 - **Description**: Create a Snake, Water, Gun game where the user plays against the computer.
-- **Solution**: [View Solution]()
+- **Solution**: [View Solution](./34\)%20snake,%20water,%20gun%20game/index.html)
 
 ## 🌟 Contributing
 
