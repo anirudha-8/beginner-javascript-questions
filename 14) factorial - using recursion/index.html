@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial of a Number - Using Loops</title>
+</head>
+<body>
+
+    <input type="number" id="number" placeholder="enter positive number">
+    <br><br>
+    <button onclick="calculate()">Calculate</button>
+    <h2 id="res"></h2>
+    
+
+    <script type="text/javascript">
+
+        // What is Recursion?
+        // The process in which a function calls itself directly or indirectly is called Recursion.
+        // And the corresponding functionis called as Recursive function.
+
+        
+        function calculate() {
+            let num = parseInt(document.getElementById('number').value);
+            let res = calculateFact(num);
+            document.getElementById('res').innerHTML = res;
+        }
+        
+        function calculateFact(n) {
+            var fact = 1;
+            if (n == 0 || n == 1) {
+                return 1;
+            }
+            else if (n < 0) {
+                alert('Factorial of negative numbers is not possible!');
+            }
+            else {
+                return n * calculateFact(n-1);
+            }
+        }
+
+    </script>
+
+
+</body>
+</html>

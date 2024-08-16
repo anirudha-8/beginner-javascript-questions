@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorts Words In Alphabetical Order</title>
+</head>
+<body>
+
+    <input type="text" id="str" placeholder="enter the string">
+    <br><br>
+
+    <button onclick="sort()">Sort</button>
+    <br><br>
+
+    <h2 id="res"></h2>
+
+
+
+
+    
+    <script type="text/javascript">
+
+    // split() - to split the string into array
+    // join() - to join the array into string
+    // sort() - sort the array into alphabetical order i.e priority is
+    //          1) first sorts uppercase
+    //          2) then lowercase        
+
+
+
+        function sort() {
+
+            let str = document.getElementById('str').value;
+
+            // we convert str to array
+            // and split it upon 'space'
+            // i.e we make each word as a array element
+            let strArray = str.split(' ');
+
+            let sortedStrArray = strArray.sort();
+
+            // we convert array to str
+            // and join it upon 'space'
+            // using join() method
+            let finalStr = sortedStrArray.join(' ');
+
+            document.getElementById('res').innerHTML = finalStr;
+
+        }
+
+
+    </script>
+
+</body>
+</html>

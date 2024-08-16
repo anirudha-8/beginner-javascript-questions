@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Wheather A String Contains A Substring</title>
+</head>
+<body>
+
+    <input type="text" id="str" placeholder="Enter the string">
+    <br><br>
+    <input type="text" id="substr" placeholder="Enter the sub-string">
+    <br><br>
+    <button onclick="check()">Check</button>
+    <br><br>
+    <h2 id="res"></h2>
+    
+    <script type="text/javascript">
+
+        // includes() :- this method checks if one string can be found inside another string and returns 'true' or 'false'
+        // indexOf() :- this method returns the first occurance of a given value in the string, or -1 if it is not present.
+
+
+        function check() {
+            let str = document.getElementById('str').value;
+            let subStr = document.getElementById('substr').value;
+            let res;
+
+            // using 'includes()' method
+            /*
+                if (str.includes(subStr)) {
+                    res = `Yes, The string '${str}' contains the substring '${subStr}' `;
+                }
+                else {
+                    res = `No, The string '${str}' does not contains the substring '${subStr}' `;
+                }
+                */
+               
+            // using 'indexOf()' method
+                if(str.indexOf(subStr) == (-1)) {
+                    res = `No, The string '${str}' does not contains the substring '${subStr}' `;
+                }
+                else {
+                    res = `Yes, The string '${str}' contains the substring '${subStr}' `;
+                }
+
+            document.getElementById('res').innerHTML = res;
+        }
+
+    </script>
+
+</body>
+</html>

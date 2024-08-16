@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Series</title>
+</head>
+<body>
+
+    <input type="number" id="number" placeholder="enter number upto which you want fibonacci series">
+    <br><br>
+
+    <button onclick="generateFibo()">Generate</button>
+    <br><br>
+
+    <h3 id="series"></h3>
+    
+
+
+    <script type="text/javascript">
+
+        function generateFibo() {
+            let num = document.getElementById('number').value;
+            let first = 0;
+            let second = 1;
+            let fib;
+            let res = [0, 1];
+            for (let i = 0; i <= (num-3); i++) {
+                fib = first + second;
+                res.push(fib);
+                first = second;
+                second = fib;
+            }
+            document.getElementById('series').innerHTML = res;
+        }
+
+    </script>
+
+
+
+</body>
+</html>

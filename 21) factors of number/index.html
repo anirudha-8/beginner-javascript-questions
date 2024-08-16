@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factors of Number</title>
+</head>
+<body>
+    
+    <input type="number" id="number" placeholder="please, enter a number">
+    <br><br>
+
+    <button onclick="findFactors()">Find</button>
+    <br><br>
+
+    <h3 id="factors"></h3>
+
+    <script type="text/javascript">
+
+        function findFactors() {
+            let num = document.getElementById('number').value;
+            let factorList = [];
+            if (num==0 || num==1) {
+                document.getElementById('factors').innerHTML = `Factors of ${num} is: 1`;
+            }
+            else {
+                for (let i=1; i<=num; i++) {
+                    if (num%i==0) {
+                        factorList.push(i);
+                    }
+                }
+                document.getElementById('factors').innerHTML = `Factors of ${num} are: ${factorList}`;
+            }
+        }
+
+    </script>
+
+
+
+</body>
+</html>

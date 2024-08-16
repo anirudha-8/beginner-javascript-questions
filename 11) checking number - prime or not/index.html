@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checking Number - Prime or Not</title>
+</head>
+<body>
+    
+    <input type="number" id="number">
+    <br><br>
+    <button onclick="check()">Check</button>
+    <h3 id="res"></h3>
+
+
+    <script type="text/javascript">
+
+        function check() {
+            let num = document.getElementById('number').value;
+            let res;
+
+            if (num == 1) {
+                res = 'Non-prime Number';
+            }
+            else if (num <= 0) {
+                res = 'Please, enter positive number.'
+            }
+            else {
+                for (let i = 2; i < num; i++) {
+                    if (num % i == 0) {
+                        res = 'Non-prime Number';
+                        break
+                    }
+                    else {
+                        res = 'Prime Number';
+                    }
+                }
+            }
+            document.getElementById('res').innerHTML = res;
+        }
+
+    </script>
+
+
+
+</body>
+</html>

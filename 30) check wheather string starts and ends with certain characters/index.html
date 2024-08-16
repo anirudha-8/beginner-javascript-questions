@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Wheather String Starts And Ends With Certain Characters</title>
+</head>
+<body>
+
+    <input type="text" id="str" placeholder="Enter the string">
+    <br>
+
+    <h3>Select what you want to check?</h3>
+    <label for="start">Starting Characters</label>
+    <input type="radio" name="select" value="start" id="start" required>
+    <br><br>
+    <label for="end">Ending Characters</label>
+    <input type="radio" name="select" value="end" id="end" required>
+    <br><br>
+
+    <input type="text" id="characters" placeholder="Enter the characters">
+
+    <button onclick="check()">Check</button>
+    <br><br>
+
+    <h3 id="res"></h3>
+
+
+
+
+
+    <script type="text/javascript">
+
+        // str.startsWith() :- It will check the first character of the string, and return true or false
+        // str.endsWith() :- It will check the last character of the string, and return true or false
+
+        function check() {
+            
+            let str = document.getElementById('str').value;
+            
+            let char = document.getElementById('characters').value;
+
+            let res;
+
+            if (document.querySelector('input[name="select"]:checked') == null) {
+                res = `Select proper option!`;
+            }
+            else {
+                let select = document.querySelector('input[name="select"]:checked').value;
+                if(select == 'start') {
+                    if (str.startsWith(char)) {
+                        res = `Yes, given string is starts with '${char}'`;
+                    }
+                    else {
+                        res = `No, given string is not starts with '${char}'`;
+                    }
+                }
+                else if (select == 'end') {
+                    if (str.endsWith(char)) {
+                        res = `Yes, given string is ends with '${char}'`;
+                    }
+                    else {
+                        res = `No, given string is not ends with '${char}'`;
+                    }
+                }
+            }
+            document.getElementById('res').innerHTML = res;
+        }
+
+    </script>
+
+
+    
+</body>
+</html>

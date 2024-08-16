@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Of Occurace Of Character In String - Using For Loop</title>
+</head>
+<body>
+    
+    <input type="text" placeholder="enter the string" id="str">
+    <br><br>
+    <input type="text" placeholder="enter the character to check" id="repeatChar">
+    <br><br>
+
+    <button onclick="check()">Check</button>
+    <br><br>
+
+    <h2 id="res"></h2>
+
+
+
+
+    <script type="text/javascript">
+
+        function check() {
+            let str = document.getElementById('str').value;
+            let repeatChar = document.getElementById('repeatChar').value;
+            let counter = 0;
+            let strArr = str.split('');
+            for (let i=0; i<strArr.length; i++) {
+                if (repeatChar == str[i]) {
+                    counter++;
+                }
+            }
+            document.getElementById('res').innerHTML = `The "${repeatChar}" is repeated ${counter} times.`;
+        }
+        
+    </script>
+
+
+</body>
+</html>

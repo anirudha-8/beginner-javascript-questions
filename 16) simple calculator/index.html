@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+
+    <input type="number" id="first" placeholder="enter first number">
+    <br><br>
+
+    <input type="number" id="second" placeholder="enter second number">
+    <br><br>
+
+    <h3>Choose Your Operation</h3>
+    <input type="radio" class="opr" name="operation" value="+"><b>+</b>
+    <br><br>
+    <input type="radio" class="opr" name="operation" value="-"><b>-</b>
+    <br><br>
+    <input type="radio" class="opr" name="operation" value="*"><b>*</b>
+    <br><br>
+    <input type="radio" class="opr" name="operation" value="/"><b>/</b>
+    <br><br>
+
+    <button onclick="cal()">Calculate</button>
+    <br><br>
+
+    <h3 id="res"></h3>
+    
+
+    <script type="text/javascript">
+
+        function cal() {
+            let a = parseFloat(document.getElementById('first').value);
+            let b = parseFloat(document.getElementById('second').value);
+            let opr = document.querySelector('input[name="operation"]:checked').value;
+            let res;
+            switch(opr) {
+                case '+': res = a + b;
+                          break;
+                case '-': res = a - b;
+                          break;
+                case '*': res = a * b;
+                          break;
+                case '/': res = a / b;
+                          break;
+                default: 'Invalid Operation';
+                          break;
+            }
+            document.getElementById('res').innerHTML = `${a} ${opr} ${b} = ${res}`;
+        }
+
+    </script>
+    
+</body>
+</html>

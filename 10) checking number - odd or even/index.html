@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checking Number - Odd or Even</title>
+</head>
+<body>
+    
+
+    <input type="number" id="number" placeholder="Enter the number..">
+    <br><br>
+    <button onclick="check()">Check</button>
+    <h3 id="res"></h3>
+
+
+    <script type="text/javascript">
+
+        function check() {
+            let num = document.getElementById('number').value;
+            let res;
+
+            // using if-else
+            /**
+            if (num % 2 == 0) {
+                res = 'Even';
+            }
+            else {
+                res = 'Odd';
+            }
+            **/
+
+            // using ternary operator
+            (num%2==0)?(res = 'Even'):(res = 'Odd');
+
+            document.getElementById('res').innerHTML = res;
+        }
+
+    </script>
+
+
+
+</body>
+</html>

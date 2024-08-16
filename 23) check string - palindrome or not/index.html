@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check String - Palindrome or Not</title>
+</head>
+<body>
+    
+    <input type="text" id="str" placeholder="enter the string">
+    <br><br>
+
+    <button onclick="check()">Check</button>
+    <br><br>
+
+    <h3 id="res"></h3>
+
+    <script type="text/javascript">
+
+        function check() {
+            let str = document.getElementById('str').value;
+            let res = checkPalindrome(str);
+            document.getElementById('res').innerHTML = res;
+        }
+
+        function checkPalindrome(str) {
+            let len = str.length;
+            for (let i = 0; i < len / 2; i++) {
+                if(str[i] !== str[len-1-i]) {
+                    return `${str}: It is not a Palidrome string`;
+                }
+            }
+            return `${str}: It is a Palidrome string`;
+        }
+
+    </script>
+
+
+
+</body>
+</html>

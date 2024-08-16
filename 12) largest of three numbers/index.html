@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest of Three Numbers</title>
+</head>
+<body>
+
+    <input type="number" id="first" placeholder="first number">
+    <br><br>
+    <input type="number" id="second" placeholder="second number">
+    <br><br>
+    <input type="number" id="third" placeholder="third number">
+    <br><br>
+    <button onclick="checkLarge()">Check</button>
+    <br><br>
+    <h2 id="res"></h2>
+    
+
+    <script type="text/javascript">
+
+
+        function checkLarge() {
+            let a = parseInt(document.getElementById('first').value);
+            let b = parseInt(document.getElementById('second').value);
+            let c = parseInt(document.getElementById('third').value);
+            let res;
+
+            // using Math.max() method
+            /**
+                res = Math.max(a, b, c);
+                document.getElementById('res').innerHTML = res;
+            **/
+
+
+            // usign conditionals
+            if (a>=b && a>=c) {
+                res = `${a} is largest.`;
+            }
+            else if (b>=a && b>=c) {
+                res = `${b} is largest.`;
+            }
+            else if (c>=a && c>=b) {
+                res = `${c} is largest.`;
+            }
+            else {
+                res = `All are equal.`;
+            }
+            document.getElementById('res').innerHTML = res;
+            
+        }
+
+
+    </script>
+
+
+</body>
+</html>

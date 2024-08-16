@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swapping of Two Numbers</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+
+        let a = parseInt(prompt('Enter the first number'));
+        let b = parseInt(prompt('Enter the second number'));
+
+        // swapping two numbers using 'temp' variable
+        /*
+            alert(`Before swapping a=${a} and b=${b}`);
+            let temp = a;
+            a = b;
+            b = temp;
+            alert(`After swapping a=${a} and b=${b}`);
+        */
+
+        // swapping two numbers without using 'temp' variable
+        alert(`Before swapping a=${a} and b=${b}`);
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        alert(`After swapping a=${a} and b=${b}`);
+
+
+    </script>
+    
+</body>
+</html>

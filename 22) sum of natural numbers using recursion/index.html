@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Of Natural Numbers Using - Recursion</title>
+</head>
+<body>
+    
+    <input type="number" id="limit" placeholder="please, enter the limit">
+    <br><br>
+
+    <button onclick="find()">Find</button>
+    <br><br>
+
+    <h3 id="res"></h3>
+
+    <script type="text/javascript">
+
+        function find() {
+            let limit = parseInt(document.getElementById('limit').value);
+            let res = findSum(limit);
+            document.getElementById('res').innerHTML = `Sum = ${res}`;
+        }
+
+        function findSum(limit) {
+            if (limit<=0) {
+                return 0;
+            }
+            else {
+                return (limit + findSum(limit-1));
+            }
+        }
+
+    </script>
+
+</body>
+</html>

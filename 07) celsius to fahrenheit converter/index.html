@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius to Fahrenheit Converter</title>
+</head>
+<body>
+
+    <input type="number" id="celsius"> °C
+    <br><br>
+    <button onclick="celsiusToFahrenheit()">Convert</button>
+    <h2 id="fahrenheit"></h2>
+
+    <script type="text/javascript">
+
+        // As we know
+        // fahrenheit = (celsius * 1.8) + 32
+
+        function celsiusToFahrenheit() {
+            let c = document.getElementById('celsius').value;
+            let f = (c * 1.8) + 32;
+            document.getElementById('fahrenheit').innerHTML = `${f} F`;
+        }
+
+    </script>
+
+</body>
+</html>

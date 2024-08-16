@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program To Replace Characters Of String</title>
+</head>
+<body>
+
+    Enter String:
+    <input type="text" id="str">
+    <br><br>
+
+    Enter characters to replace(separated by comma):
+    <input type="text" id="find" placeholder="my, a, is, or">
+    <br><br>
+
+    Enter characters of string to replace with(separated by comma):
+    <input type="text" id="replace" placeholder="your, b, of, on">
+    <br><br>
+
+    <button onclick="replace()">Replace</button>
+    <br><br>
+
+    <h2 id="res"></h2>
+
+    
+
+    <script type="text/javascript">
+
+        // replace() -
+        // the replace() function finds, replaces and returns a new string
+        // syntax -
+        // replace(find, replace)
+        //         find - characters to find
+        //         replace - characters to replace
+
+        function replace() {
+            
+            let str = document.getElementById('str').value;
+            
+            let findChar = document.getElementById('find').value;
+            
+            let replaceChar = document.getElementById('replace').value;
+            
+            let newStr = str.replace(findChar, replaceChar);
+            
+            document.getElementById('res').innerHTML = newStr;
+        }
+
+
+    </script>
+    
+</body>
+</html>

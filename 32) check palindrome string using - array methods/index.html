@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Palindrome String Using - Array Methods</title>
+</head>
+<body>
+
+    <input type="text" id="str" placeholder="Enter the string">
+    <br><br>
+
+    <button onclick="check()">Check</button>
+    <br><br>
+
+    <h2 id="res"></h2>
+    
+    <script type="text/javascript">
+
+        // split('') :- splits a string and returns an array
+        // reverse() :- reverse an array
+        // join('') :- join the array elements and returns a string
+        
+
+        function check() {
+            let str = document.getElementById('str').value;
+            // let strArr = str.split('');
+            // let reverseStrArr = strArr.reverse();
+            // let finalStr = reverseStrArr.join('');
+            let res;
+            if (str == str.split('').reverse().join('')) {
+                res = `The string '${str}' is palidrome string.`;
+            }
+            else {
+                res = `The string '${str}' is not palidrome string.`;
+            }
+            document.getElementById('res').innerHTML = res;
+        }
+
+    </script>
+
+</body>
+</html>

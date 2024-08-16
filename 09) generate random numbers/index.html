@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+</head>
+<body>
+
+    <input type="number" id="limit" placeholder="Enter the range..">
+    <br><br>
+    <button onclick="generate()">Generate</button>
+    <h3 id="number"></h3>
+
+    <script type="text/javascript">
+
+        // Math.random()
+        //      returns a floating-point number ranging from
+        //      0 to less than 1
+
+        // get a random number between a range
+        // Math.random() * (highestNum - lowestNum) + lowestNum;
+
+        function generate() {
+            let limit = document.getElementById('limit').value;
+            let num = Math.floor(Math.random() * limit) + 1 ;
+            document.getElementById('number').innerHTML = num;
+        }
+
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial of a Number - Using Loops</title>
+</head>
+<body>
+
+    <input type="number" id="number" placeholder="enter positive number">
+    <br><br>
+    <button onclick="fact()">Calculate</button>
+    <h2 id="res"></h2>
+    
+
+    <script type="text/javascript">
+
+        function fact() {
+            let num = parseInt(document.getElementById('number').value);
+            let fact = 1;
+            
+            if (num == 0) {
+                document.getElementById('res').innerHTML = "Factorial of 0 is 1";;
+            }
+            else if (num < 0) {
+                document.getElementById('res').innerHTML = `Factorial of negative numbers is not possible.`;
+            }
+            else if (num > 0) {
+                for (let i = 1; i <= num; i++) {
+                    fact = fact * i;
+                }
+                document.getElementById('res').innerHTML = `Factorial of ${num} is ${fact}.`;
+            }
+            else  {
+                document.getElementById('res').innerHTML = `Please, enter valid number.`;
+            }
+        }
+
+    </script>
+
+
+</body>
+</html>

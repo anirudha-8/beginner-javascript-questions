@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding Armstrong Number (between interwal)</title>
+</head>
+<body>
+    
+
+    <input type="number" placeholder="enter the lower limit" id="lower">
+    <br><br>
+    <input type="number" placeholder="enter the upper limit" id="upper">
+    <br><br>
+
+    <button onclick="check()">Check</button>
+    <br><br>
+
+    <h2 id="res"></h2>
+
+
+
+    <script type="text/javascript">
+
+        function check() {
+            let lower = parseInt(document.getElementById('lower').value);
+            let upper = parseInt(document.getElementById('upper').value);
+            let armstrongList = [];
+            
+            for (let i = lower; i <= upper; i++) {
+                let numCopy = i;
+                let noOfDigit = i.toString().length;
+                let sum = 0;
+                while (numCopy > 0) { 
+                    let digit = numCopy % 10;
+                    sum = sum + (digit ** noOfDigit);
+                    numCopy = parseInt(numCopy / 10);
+                }
+                if (sum === i) {
+                    armstrongList.push(i);
+                }
+            }
+            document.getElementById('res').innerHTML = armstrongList;
+        }
+        
+    </script>
+
+
+</body>
+</html>

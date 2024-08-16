@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Of Vowels In String - Using RegEx</title>
+</head>
+<body>
+    
+    <input type="text" placeholder="enter the string" id="str">
+    <br><br>
+
+    <button onclick="find()">Find</button>
+    <br><br>
+
+    <h2 id="res"></h2>
+
+
+
+
+    <script type="text/javascript">
+
+        // RegEx is know as regular expression
+        // It is used to match, text and find character(s) from a string
+        // To find vowels:
+        //         Expression = [aeiou]
+        //         Modifiers = gi
+        // here g(global) and i(not case-sensitive)
+
+        function find() {
+            let str = document.getElementById('str').value;
+            const regex = /[aeiou]/gi;         
+            let noOfTime = str.match(regex).length;
+            document.getElementById('res').innerHTML = `The number of occurance of vowels in given string is: ${noOfTime}`;
+        }
+        
+    </script>
+
+
+</body>
+</html>

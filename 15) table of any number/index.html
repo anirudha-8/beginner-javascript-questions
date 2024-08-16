@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table of any Number</title>
+</head>
+<body>
+    
+    <input type="number" id="number" placeholder="enter number">
+    <br><br>
+    <button onclick="generateTable()">Generate</button>
+    <br><br>
+    <table id="table" border="1" style="border-collapse: collapse; text-align: center;">
+        <!-- <tr><td>2</td></tr>
+        <tr><td>4</td></tr>
+        <tr><td>6</td></tr>
+        <tr><td>8</td></tr>
+        <tr><td>10</td></tr>
+        <tr><td>12</td></tr>
+        <tr><td>14</td></tr>
+        <tr><td>16</td></tr>
+        <tr><td>18</td></tr>
+        <tr><td>20</td></tr> -->
+    </table>
+
+
+    <script type="text/javascript">
+
+        function generateTable() {
+            resetBefore();
+            const table = document.getElementById('table');
+            const num = document.getElementById('number').value;
+            for (let i = 1; i <= 10; i++) {
+                let tr = document.createElement('tr');
+                let td = document.createElement('td');
+                td.innerHTML = num*i;
+                tr.appendChild(td);
+                table.appendChild(tr);
+            }
+        }
+
+        function resetBefore() {
+            const table = document.getElementById('table');
+            table.innerHTML = '';
+        }
+
+    </script>
+
+
+</body>
+</html>

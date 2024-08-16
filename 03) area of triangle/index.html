@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of Triangle</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+
+        // If we know base and height of the Triangle
+        /**
+            const base = parseInt(prompt('Enter the base value of the triangle'));
+            const height = parseInt(prompt('Enter the height value of the triangle'));
+            alert(`Area of a trianlge is: ${0.5*base*height}`);
+        **/
+
+
+
+        // If we know all three sides of the triangle,
+        // then we calculate area using "HERON'S FORMULA"
+        const a = parseInt(prompt('Enter the first side of the triangle'));
+        const b = parseInt(prompt('Enter the second side of the triangle'));
+        const c = parseInt(prompt('Enter the third side of the triangle'));
+
+        let s = (a+b+c)/2;
+
+        let area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
+
+        alert(`Area of triangle is: ${area}`);
+
+    </script>
+
+</body>
+</html>

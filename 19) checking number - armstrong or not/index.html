@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checking Number - Armstrong or Not</title>
+</head>
+<body>
+
+    <input type="number" placeholder="enter the number" id="number">
+    <br><br>
+
+    <button onclick="check()">Check</button>
+    <br><br>
+
+    <h2 id="res"></h2>
+    
+
+    <script type="text/javascript">
+
+        // Armstrong Number?
+        // A positive integer is called an Armstrong number (of order n) if
+        // abcd... = a**n + b**n + c**n + d**n + ..
+        // here,
+        // n = number of digits
+        // for ex) for 3 digit number (n=3)
+        //         let number = 153
+        //         now,
+        //         153 = 1*1*1 + 5*5*5 + 3*3*3
+        //     ex) for 1 digit number (n=1)
+        //         let number = 1
+        //         now,
+        //         1 = 1*1
+
+        function check() {
+            let num = parseInt(document.getElementById('number').value);
+            let numCopy = num;
+            let noOfDigit = num.toString().length;
+            let sum = 0;
+            while (num > 0) { 
+                let digit = num % 10;
+                sum = sum + (digit ** noOfDigit);
+                num = parseInt(num / 10);
+            }
+            if (sum === numCopy) {
+                res = `${numCopy} is an Armstrong number.`;
+            }
+            else {
+                res = `${numCopy} is NOT an Armstrong number.`;
+            }
+            document.getElementById('res').innerHTML = res;
+        }
+        
+    </script>
+
+
+</body>
+</html>
