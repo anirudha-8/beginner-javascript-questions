@@ -44,8 +44,7 @@ This repository contains a collection of basic to intermediate JavaScript practi
     - [33. 🎮 Guess the Number Game](#33--guess-the-number-game)
     - [34. 🎮 Snake, Water, Gun Game](#34--snake-water-gun-game)
   - [🌟 Contributing](#-contributing)
-  - [📜 License](#-license)
-  - [🙏 Acknowledgements](#-acknowledgements)
+    - [**Happy Coding! 💻🚀**](#happy-coding-)
 
 ## ❓ Questions and Solutions
 
@@ -223,12 +222,4 @@ This repository contains a collection of basic to intermediate JavaScript practi
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgements
-
-Thanks to all the contributors and those who have helped make this repository a valuable resource for beginners.
-
-Happy Coding! 💻🚀
+### **Happy Coding! 💻🚀**
