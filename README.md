@@ -44,7 +44,7 @@ This repository contains a collection of basic to intermediate JavaScript practi
     - [33. 🎮 Guess the Number Game](#33--guess-the-number-game)
     - [34. 🎮 Snake, Water, Gun Game](#34--snake-water-gun-game)
   - [🌟 Contributing](#-contributing)
-    - [**Happy Coding! 💻🚀**](#happy-coding-)
+    - [**Thanks for visiting, Happy Coding! 💻🚀**](#thanks-for-visiting-happy-coding-)
 
 ## ❓ Questions and Solutions
 
@@ -222,4 +222,4 @@ This repository contains a collection of basic to intermediate JavaScript practi
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
 
-### **Happy Coding! 💻🚀**
+### **Thanks for visiting, Happy Coding! 💻🚀**
